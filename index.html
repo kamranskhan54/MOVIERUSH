@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieRush - Watch Movies Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>MovieRush</h1>
+        </div>
+        <div class="nav-links">
+            <a href="#" class="active">Home</a>
+            <a href="#">Movies</a>
+            <a href="#">TV Shows</a>
+            <a href="#">My List</a>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+              <input type="text" placeholder="Search movies...">
+              <i class="fas fa-search"></i>
+            </div>
+          
+            <div class="auth-buttons">
+                <a href="login.html"><button class="login-btn">Log In</button></a>
+                <a href="signup.html"><button class="signup-btn">Sign Up</button></a>
+              </div>
+          
+            <div class="user-profile">
+              <img src="https://m.media-amazon.com/images/M/MV5BMTY2MzM2NzAxNF5BMl5BanBnXkFtZTgwMDIyMzg1NDM@.V1.jpg" alt="Profile">
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <section class="banner" style="background-image: url('https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg');">
+        <div class="banner-content">
+            <h1>Welcome to MovieRush</h1>
+            <p>Your Ultimate Streaming Destination</p>
+            <div class="banner-buttons">
+                <button class="play-button"><i class="fas fa-play"></i> Play Now</button>
+                <button class="more-info-button"><i class="fas fa-info-circle"></i> More Info</button>
+            </div>
+        </div>
+        <div class="banner-overlay"></div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Trending Now</h2>
+            <div class="trending-slider" id="trending-movies">
+                <!-- Trending movies will be added dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Movies -->
+    <section class="featured">
+        <div class="section-header">
+            <h2>Featured Movies</h2>
+            <a href="#" class="view-all">View All <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="movie-grid" id="featured-movies">
+            <!-- Movies will be added dynamically with JavaScript -->
+        </div>
+    </section>
+
+    <!-- Popular Movies -->
+    <section class="popular">
+        <div class="section-header">
+            <h2>Popular Movies</h2>
+            <a href="#" class="view-all">View All <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="movie-grid" id="popular-movies">
+            <!-- Movies will be added dynamically with JavaScript -->
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+        <div class="section-header">
+            <h2>Categories</h2>
+        </div>
+        <div class="category-grid">
+            <div class="category-card">
+                <i class="fas fa-film"></i>
+                <h3>Action</h3>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-laugh"></i>
+                <h3>Comedy</h3>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-heart"></i>
+                <h3>Romance</h3>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-ghost"></i>
+                <h3>Horror</h3>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-rocket"></i>
+                <h3>Sci-Fi</h3>
+            </div>
+            <div class="category-card">
+                <i class="fas fa-theater-masks"></i>
+                <h3>Drama</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>MovieRush</h3>
+                <p>Your ultimate destination for movies and TV shows.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 MovieRush. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
